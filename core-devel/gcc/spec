@@ -5,3 +5,4 @@ VER=14.1.0
 SRCS="tbl::https://ftp.gnu.org/gnu/gcc/gcc-$VER/gcc-$VER.tar.xz"
 CHKSUMS="sha256::e283c654987afe3de9d8080bc0bd79534b5ca0d681a73a11ff2b5d3767426840"
 CHKUPDATE="anitya::id=6502"
+REL=1
