@@ -1,0 +1,8 @@
+PKGNAME=python-xxhash
+PKGSEC=python
+PKGDEP=""
+BUILDDEP="setuptools"
+PKGDES="Python binding for the xxHash"
+
+ABHOST=noarch
+NOPYTHON2=1

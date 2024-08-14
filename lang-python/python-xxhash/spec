@@ -1,0 +1,4 @@
+VER=3.4.1
+SRCS="tbl::https://pypi.io/packages/source/x/xxhash/xxhash-$VER.tar.gz"
+CHKSUMS="sha256::0379d6cf1ff987cd421609a264ce025e74f346e3e145dd106c0cc2e3ec3f99a9"
+CHKUPDATE="anitya::id=42138"

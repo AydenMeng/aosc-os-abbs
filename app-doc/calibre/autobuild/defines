@@ -4,7 +4,8 @@ PKGDEP="hunspell hyphen icu libmtp snowball libusb libwmf mathjax mtdev optipng 
         apsw beautifulsoup4 css-parser python-cssselect dateutil dnspython feedparser \
         html2text html5-parser jeepney lxml markdown mechanize python-msgpack \
         netifaces pillow psutils pycryptodome pygments regex zeroconf zstandard \
-        pyqt6 liberation-fonts uchardet udisks-2 zstd poppler fonttools speech-dispatcher"
+        pyqt6 liberation-fonts uchardet udisks-2 zstd poppler fonttools speech-dispatcher \
+        python-xxhash"
 BUILDDEP="cmake pyqt-builder sip xdg-utils"
 PKGDES="E-book converter and library manager"
 
