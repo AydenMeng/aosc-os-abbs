@@ -1,0 +1,20 @@
+#!/bin/sh -e
+
+source /usr/share/debconf/confmodule
+
+# Borrowed from Debian.
+_systemctl() {
+	if [ -z "$DPKG_ROOT" ] && [ -d /run/systemd/system ]; then
+		systemctl "$@" 1>&2
+	else
+		return 127
+	fi
+}
+
+# Only ask user whether they want to reload if firewalld is currently
+# running.
+db_fset firewalld/select_auto_reload seen false || true
+if _systemctl is-active --quiet firewalld; then
+	db_input medium firewalld/select_auto_reload || true
+	db_go || true
+fi
