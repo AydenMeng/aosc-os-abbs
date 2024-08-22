@@ -1,7 +1,7 @@
 # Adapted from Arch Linux
 abinfo "Sourcing env.sh to export required environment variables ..."
 source "$SRCDIR"/env.sh
-OUTPUTDIR="$SRCDIR"/out/linux.amd64/release/bin
+OUTPUTDIR="$SRCDIR"/out/linux.amd64/debug/bin
 
 abinfo "Copying required sources ..."
 mkdir -pv "$PKGDIR"/usr/src/vboxguest-$PKGVER

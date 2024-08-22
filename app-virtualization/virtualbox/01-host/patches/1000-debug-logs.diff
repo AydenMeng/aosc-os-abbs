@@ -1,0 +1,44 @@
+--- a/include/iprt/log.h	2024-07-10 20:50:07.000000000 +0800
++++ b/include/iprt/log.h	2024-08-22 12:49:36.040956431 +0800
+@@ -611,7 +611,7 @@
+ # undef  LOG_DISABLED
+ # define LOG_DISABLED
+ #endif
+-
++#define LOG_ENABLE_FLOW
+ 
+ /** @def LOG_USE_C99
+  * Governs the use of variadic macros.
+@@ -710,15 +710,7 @@
+ #ifdef LOG_ENABLED
+ # if defined(LOG_USE_C99)
+ #  define _LogRemoveParentheseis(...)                   __VA_ARGS__
+-#  define _LogIt(a_fFlags, a_iGroup, ...) \
+-   do \
+-   { \
+-        PRTLOGGER LogIt_pLogger = RTLogDefaultInstanceEx(RT_MAKE_U32(a_fFlags, a_iGroup)); \
+-        if (RT_LIKELY(!LogIt_pLogger)) \
+-        {   /* likely */ } \
+-        else \
+-            RTLogLoggerEx(LogIt_pLogger, a_fFlags, a_iGroup, __VA_ARGS__); \
+-   } while (0)
++#  define _LogIt(a_fFlags, a_iGroup, ...) RTLogLoggerEx(NULL, a_fFlags, UINT32_MAX, __VA_ARGS__)
+ #  define LogIt(a_fFlags, a_iGroup, fmtargs)            _LogIt(a_fFlags, a_iGroup, _LogRemoveParentheseis fmtargs)
+ #  define _LogItAlways(a_fFlags, a_iGroup, ...)          RTLogLoggerEx(NULL, a_fFlags, UINT32_MAX, __VA_ARGS__)
+ #  define LogItAlways(a_fFlags, a_iGroup, fmtargs)      _LogItAlways(a_fFlags, a_iGroup, _LogRemoveParentheseis fmtargs)
+@@ -727,13 +719,9 @@
+ #  define LogIt(a_fFlags, a_iGroup, fmtargs) \
+     do \
+     { \
+-        PRTLOGGER LogIt_pLogger = RTLogDefaultInstanceEx(RT_MAKE_U32(a_fFlags, a_iGroup)); \
+-        if (RT_LIKELY(!LogIt_pLogger)) \
+-        {   /* likely */ } \
+-        else \
+-        { \
++        PRTLOGGER LogIt_pLogger = RTLogDefaultInstanceEx(RT_MAKE_U32(0, UINT16_MAX)); \
++        if (LogIt_pLogger) \
+             LogIt_pLogger->pfnLogger fmtargs; \
+-        } \
+     } while (0)
+ #  define LogItAlways(a_fFlags, a_iGroup, fmtargs) \
+     do \

@@ -11,6 +11,7 @@ abinfo "Running configure ..."
     --enable-libvorbis \
     --enable-libogg \
     --enable-vde \
+    --build-debug \
     --setup-wine \
     --disable-docs \
     --disable-kmods \
@@ -27,7 +28,7 @@ kmk -C "$SRCDIR"/src/VBox/ExtPacks/VNC packing
 abinfo "Building virtualbox image mounter ..."
 kmk -C "$SRCDIR"/src/VBox/ImageMounter/vboximg-mount
 
-OUTPUTDIR="$SRCDIR"/out/linux.amd64/release/bin
+OUTPUTDIR="$SRCDIR"/out/linux.amd64/debug/bin
 
 abinfo "Preparing target directories ..."
 install -vdm755 "$PKGDIR"/usr/{src,bin,lib/virtualbox}
@@ -51,7 +52,7 @@ for i in VBoxSDL VBoxHeadless VBoxNetDHCP VBoxNetAdpCtl VBoxNetNAT VirtualBoxVM;
 done
 
 abinfo "** (2/2) Installing other binaries ..."
-for i in VBoxManage VirtualBox VBoxSVC VBoxExtPackHelperApp VBoxXPCOMIPCD VBoxTestOGL VBoxBalloonCtrl vboxwebsrv webtest; do
+for i in VBoxManage VirtualBox VBoxSVC VBoxExtPackHelperApp VBoxXPCOMIPCD VBoxTestOGL VBoxBalloonCtrl; do
     install -vm755 "$OUTPUTDIR/$i" -t "$PKGDIR"/usr/lib/virtualbox
 done
 
