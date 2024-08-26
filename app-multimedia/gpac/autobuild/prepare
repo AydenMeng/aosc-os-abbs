@@ -2,3 +2,8 @@ if ab_match_arch riscv64; then
     abinfo "Appending -latomic to fix build ..."
     export LDFLAGS="${LDFLAGS} -latomic"
 fi
+
+if ab_match_arch loongarch64; then
+    abinfo "Enlarging code model to work around relocation truncation errors ..."
+    export CFLAGS="${CFLAGS} -mcmodel=extreme -mexplicit-relocs=always"
+fi
