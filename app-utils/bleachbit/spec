@@ -1,4 +1,4 @@
-VER=4.6.0
+VER=4.6.1
 SRCS="tbl::https://github.com/bleachbit/bleachbit/archive/v$VER.tar.gz"
-CHKSUMS="sha256::6d32db1200fd6e89f0fa822e01ce8eaac9749e84788970b0f562d77b271db629"
+CHKSUMS="sha256::1e3bcaaa6e0b3b167b7e21148ae9047980dfd79e64e13fdb020d4e6354a175e7"
 CHKUPDATE="anitya::id=200"
