@@ -1,5 +1,4 @@
-VER=5.0.8
-REL=1
+VER=6.1.2
 SRCS="git::commit=tags/v$VER::https://github.com/Xpra-org/xpra"
 CHKSUMS="SKIP"
 CHKUPDATE="anitya::id=5445"
