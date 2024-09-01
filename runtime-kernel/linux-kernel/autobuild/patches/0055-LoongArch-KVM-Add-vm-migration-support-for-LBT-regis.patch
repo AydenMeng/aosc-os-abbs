@@ -1,4 +1,4 @@
-From daa6092ec551e3105be05405afbe98b154e620bf Mon Sep 17 00:00:00 2001
+From 297a25e6c445c85b392c9b0f5c8204b57367708d Mon Sep 17 00:00:00 2001
 From: Bibo Mao <maobibo@loongson.cn>
 Date: Tue, 30 Jul 2024 15:57:43 +0800
 Subject: [PATCH 055/100] LoongArch: KVM: Add vm migration support for LBT
@@ -52,7 +52,7 @@ index 49bafac8b22d3..003fb766c93f7 100644
  #define LOONGARCH_REG_64(TYPE, REG)	(TYPE | KVM_REG_SIZE_U64 | (REG << LOONGARCH_REG_SHIFT))
  #define KVM_IOC_CSRID(REG)		LOONGARCH_REG_64(KVM_REG_LOONGARCH_CSR, REG)
 diff --git a/arch/loongarch/kvm/vcpu.c b/arch/loongarch/kvm/vcpu.c
-index b5324885a81a4..b2500d4fa7298 100644
+index c9efc3478bc3c..1b1a6c1d5b111 100644
 --- a/arch/loongarch/kvm/vcpu.c
 +++ b/arch/loongarch/kvm/vcpu.c
 @@ -597,6 +597,34 @@ static int kvm_get_one_reg(struct kvm_vcpu *vcpu,

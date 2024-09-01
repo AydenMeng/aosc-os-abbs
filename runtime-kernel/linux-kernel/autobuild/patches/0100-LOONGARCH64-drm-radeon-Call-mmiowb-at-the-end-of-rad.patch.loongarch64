@@ -1,4 +1,4 @@
-From e5dae7491e93e298666b65572dbcc1b90dbb4a3b Mon Sep 17 00:00:00 2001
+From 16a890bd6a02e50dfbfb135354dd70ed0687d3c9 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhuacai@loongson.cn>
 Date: Tue, 20 Feb 2024 14:28:02 +0800
 Subject: [PATCH 100/100] [LOONGARCH64] drm/radeon: Call mmiowb() at the end of

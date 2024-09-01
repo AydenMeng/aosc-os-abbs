@@ -1,4 +1,4 @@
-From bab5b61f29eefdf4a9a29431239cfed56cff473d Mon Sep 17 00:00:00 2001
+From 1a31c3484fce144a3ecaae930e5c6290c12e66b9 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhuacai@loongson.cn>
 Date: Mon, 22 Feb 2021 10:53:47 +0800
 Subject: [PATCH 099/100] [LOONGARCH64] drm/radeon: Workaround radeon driver

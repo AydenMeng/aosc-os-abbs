@@ -1,4 +1,4 @@
-From 13d9527256d0fc2280d21e977bd1cdffc4209e7e Mon Sep 17 00:00:00 2001
+From f8b8c85bc8f65482acf4d47d4a42f890e4e2f5c7 Mon Sep 17 00:00:00 2001
 From: Yanteng Si <siyanteng@loongson.cn>
 Date: Wed, 7 Aug 2024 21:47:09 +0800
 Subject: [PATCH 012/100] net: stmmac: dwmac-loongson: Use PCI_DEVICE_DATA()

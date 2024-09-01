@@ -1,4 +1,4 @@
-From 6eeeeb0c79a2f86069052348a4edae4a70ffbdae Mon Sep 17 00:00:00 2001
+From a27cdf45880bb88eb0bb28a36567612fd285ffe7 Mon Sep 17 00:00:00 2001
 From: Kexy Biscuit <kexybiscuit@aosc.io>
 Date: Wed, 28 Aug 2024 01:58:47 +0800
 Subject: [PATCH 051/100] PCI: use local_pci_probe when best selected cpu is

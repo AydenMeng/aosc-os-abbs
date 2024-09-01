@@ -1,4 +1,4 @@
-From 85a6d18ee20338021b8cb7d03c537e8a254c676f Mon Sep 17 00:00:00 2001
+From 35e3c14d24306910a1a6f645919728adc781fb27 Mon Sep 17 00:00:00 2001
 From: Bibo Mao <maobibo@loongson.cn>
 Date: Tue, 30 Jul 2024 15:57:42 +0800
 Subject: [PATCH 054/100] LoongArch: KVM: Add LBT feature detection function
@@ -54,7 +54,7 @@ index ddc5cab0ffd00..49bafac8b22d3 100644
  #define KVM_LOONGARCH_VCPU_CPUCFG	0
  #define KVM_LOONGARCH_VCPU_PVTIME_CTRL	1
 diff --git a/arch/loongarch/kvm/vcpu.c b/arch/loongarch/kvm/vcpu.c
-index 36db2b257a958..b5324885a81a4 100644
+index 65335323abd1b..c9efc3478bc3c 100644
 --- a/arch/loongarch/kvm/vcpu.c
 +++ b/arch/loongarch/kvm/vcpu.c
 @@ -498,6 +498,12 @@ static int _kvm_get_cpucfg_mask(int id, u64 *v)

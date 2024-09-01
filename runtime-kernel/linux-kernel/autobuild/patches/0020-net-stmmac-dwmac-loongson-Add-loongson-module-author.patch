@@ -1,4 +1,4 @@
-From abf75a0dd548c62d7175d5b7a4a99903e724670b Mon Sep 17 00:00:00 2001
+From 36c9f33c22e23d4da83136d779e001c97e43b73f Mon Sep 17 00:00:00 2001
 From: Yanteng Si <siyanteng@loongson.cn>
 Date: Wed, 7 Aug 2024 21:48:56 +0800
 Subject: [PATCH 020/100] net: stmmac: dwmac-loongson: Add loongson module

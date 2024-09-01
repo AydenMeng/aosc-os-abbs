@@ -1,4 +1,4 @@
-From da2eebf6cf33662bdc633c3edf246105ae37cc68 Mon Sep 17 00:00:00 2001
+From 3aa191eca3ddbbaf38557248998cfbff622f917e Mon Sep 17 00:00:00 2001
 From: Binbin Zhou <zhoubinbin@loongson.cn>
 Date: Wed, 10 Jul 2024 10:04:07 +0800
 Subject: [PATCH 057/100] pwm: Add Loongson PWM controller support
@@ -20,10 +20,10 @@ Ref: https://lore.kernel.org/all/63a540e93147eff5e7c942133c462530689f707c.172051
  create mode 100644 drivers/pwm/pwm-loongson.c
 
 diff --git a/MAINTAINERS b/MAINTAINERS
-index 3def0994eec02..2295f0afdd0d7 100644
+index d9014038129a6..8f14aef5dec14 100644
 --- a/MAINTAINERS
 +++ b/MAINTAINERS
-@@ -13202,6 +13202,7 @@ M:	Binbin Zhou <zhoubinbin@loongson.cn>
+@@ -13205,6 +13205,7 @@ M:	Binbin Zhou <zhoubinbin@loongson.cn>
  L:	linux-pwm@vger.kernel.org
  S:	Maintained
  F:	Documentation/devicetree/bindings/pwm/loongson,ls7a-pwm.yaml

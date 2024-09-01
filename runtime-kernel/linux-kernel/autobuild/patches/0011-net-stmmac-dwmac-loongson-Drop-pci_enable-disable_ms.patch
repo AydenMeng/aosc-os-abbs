@@ -1,4 +1,4 @@
-From 8079e2c9a017f7a1351c33d2bc0afde47e273669 Mon Sep 17 00:00:00 2001
+From 1a2fa807e4b055b1922b517b1e54a334d059ff2a Mon Sep 17 00:00:00 2001
 From: Yanteng Si <siyanteng@loongson.cn>
 Date: Wed, 7 Aug 2024 21:47:08 +0800
 Subject: [PATCH 011/100] net: stmmac: dwmac-loongson: Drop

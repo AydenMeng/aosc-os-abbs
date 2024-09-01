@@ -1,4 +1,4 @@
-From e8024abd1afddace35cfb7c0d7f9055dd2c16c37 Mon Sep 17 00:00:00 2001
+From 58777bf4c6aa2faed2f3c7e57588a4e12049b5aa Mon Sep 17 00:00:00 2001
 From: Binbin Zhou <zhoubinbin@loongson.cn>
 Date: Wed, 10 Jul 2024 10:04:06 +0800
 Subject: [PATCH 056/100] dt-bindings: pwm: Add Loongson PWM controller
@@ -89,10 +89,10 @@ index 0000000000000..46814773e0cc8
 +        #pwm-cells = <3>;
 +    };
 diff --git a/MAINTAINERS b/MAINTAINERS
-index 91c083df16497..3def0994eec02 100644
+index c7d3222b78c44..d9014038129a6 100644
 --- a/MAINTAINERS
 +++ b/MAINTAINERS
-@@ -13197,6 +13197,12 @@ S:	Maintained
+@@ -13200,6 +13200,12 @@ S:	Maintained
  F:	Documentation/devicetree/bindings/i2c/loongson,ls2x-i2c.yaml
  F:	drivers/i2c/busses/i2c-ls2x.c
  

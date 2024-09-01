@@ -1,4 +1,4 @@
-From b16bbd3cb600fa6f22004e9951449e114a462fa7 Mon Sep 17 00:00:00 2001
+From 7b11ff7820cbe6459aec84c000af2194fa9dd506 Mon Sep 17 00:00:00 2001
 From: Kexy Biscuit <kexybiscuit@aosc.io>
 Date: Mon, 12 Aug 2024 07:48:50 +0800
 Subject: [PATCH 031/100] net: phytium: Add support for phytium GMAC
@@ -43,10 +43,10 @@ Ref: https://gitee.com/phytium_embedded/phytium-linux-kernel/commit/4a478e247258
  create mode 100644 drivers/net/ethernet/phytium/phytmac_v2.h
 
 diff --git a/MAINTAINERS b/MAINTAINERS
-index 4393fb5b07ffb..91c083df16497 100644
+index c2af8c82dedc2..c7d3222b78c44 100644
 --- a/MAINTAINERS
 +++ b/MAINTAINERS
-@@ -18547,6 +18547,9 @@ ARM/PHYTIUM SOC SUPPORT
+@@ -18553,6 +18553,9 @@ ARM/PHYTIUM SOC SUPPORT
  M:	Wang Yinfeng <wangyinfeng@phytium.com.cn>
  S:	Maintained
  W:	https://www.phytium.com.cn

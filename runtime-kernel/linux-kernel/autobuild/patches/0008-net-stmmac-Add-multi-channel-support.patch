@@ -1,4 +1,4 @@
-From be3617d04843054ed0784d41910cc52196cbaada Mon Sep 17 00:00:00 2001
+From 245157b27659828b98cdde2ddb8d4aa1a240fcbd Mon Sep 17 00:00:00 2001
 From: Yanteng Si <siyanteng@loongson.cn>
 Date: Wed, 7 Aug 2024 21:45:29 +0800
 Subject: [PATCH 008/100] net: stmmac: Add multi-channel support

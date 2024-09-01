@@ -1,4 +1,4 @@
-From 40ba7969770eae7e9dd45ca06d8536f1666a046f Mon Sep 17 00:00:00 2001
+From d6ff0ae0c3b84f93538607db1f67505f64fac709 Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:34 -0500
 Subject: [PATCH 072/100] ntsync: Introduce NTSYNC_IOC_EVENT_RESET.

@@ -1,4 +1,4 @@
-From 9241944737a9c119be71af34bab8043ab7470584 Mon Sep 17 00:00:00 2001
+From 5b74ccd4df2cfb74afd7c566f1c9cabdcf4bd611 Mon Sep 17 00:00:00 2001
 From: Miao Wang <shankerwangmiao@gmail.com>
 Date: Wed, 24 Jul 2024 09:06:27 +0800
 Subject: [PATCH 061/100] loongarch: correct missing offset of PCI root

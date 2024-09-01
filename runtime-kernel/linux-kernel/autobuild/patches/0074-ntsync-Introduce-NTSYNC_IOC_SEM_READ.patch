@@ -1,4 +1,4 @@
-From 10585c284873d1b670a50797d0d3b82ddaaa3f06 Mon Sep 17 00:00:00 2001
+From 7079bca9d0bd10ffab960ca35a46e60c3cc99b7f Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:36 -0500
 Subject: [PATCH 074/100] ntsync: Introduce NTSYNC_IOC_SEM_READ.
