@@ -1,4 +1,4 @@
-From f70ffc6e237a9d4d334730089023d8b1854d7d5a Mon Sep 17 00:00:00 2001
+From 46a87f4b1b3528a291e5ef7bc46f02398d770ed9 Mon Sep 17 00:00:00 2001
 From: Yanteng Si <siyanteng@loongson.cn>
 Date: Wed, 7 Aug 2024 21:47:07 +0800
 Subject: [PATCH 010/100] net: stmmac: dwmac-loongson: Drop duplicated

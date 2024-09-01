@@ -1,4 +1,4 @@
-From fae05b0eff364d6d9e53d374e885c9ace06e577f Mon Sep 17 00:00:00 2001
+From 8d30948cd58fac08b0e752f4815ba82534c493e6 Mon Sep 17 00:00:00 2001
 From: Kexy Biscuit <kexybiscuit@aosc.io>
 Date: Wed, 28 Aug 2024 03:09:24 +0800
 Subject: [PATCH 093/100] arch/loongarch: add la_ow_syscall as in-tree module

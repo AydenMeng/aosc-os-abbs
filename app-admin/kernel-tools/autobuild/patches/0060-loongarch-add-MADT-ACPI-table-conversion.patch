@@ -1,4 +1,4 @@
-From be94a1f4b80aecf876ca6b96c32deab7365e078b Mon Sep 17 00:00:00 2001
+From f712d30c510d609bb845490753706cd40111cad7 Mon Sep 17 00:00:00 2001
 From: Miao Wang <shankerwangmiao@gmail.com>
 Date: Sat, 20 Jul 2024 06:32:15 +0800
 Subject: [PATCH 060/100] loongarch: add MADT ACPI table conversion

@@ -1,4 +1,4 @@
-From b7a168544d1ebb8d5b5a7b8b5a548762b5f77d5b Mon Sep 17 00:00:00 2001
+From ca7e7b10dc0f535205bbb933907e82b654de8331 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhuacai@loongson.cn>
 Date: Tue, 12 Jul 2022 12:47:48 +0800
 Subject: [PATCH 003/100] cpuinfo: fix a warning for CONFIG_CPUMASK_OFFSTACK

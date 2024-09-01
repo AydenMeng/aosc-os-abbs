@@ -1,4 +1,4 @@
-From 0be28399865a915081039cc4188161856c647474 Mon Sep 17 00:00:00 2001
+From b500506d894e8fbe1d36f737400673c46ee2ec4b Mon Sep 17 00:00:00 2001
 From: Kexy Biscuit <kexybiscuit@aosc.io>
 Date: Tue, 13 Aug 2024 23:35:51 +0800
 Subject: [PATCH 032/100] net: phytium: Adapt struct kernel_ethtool_ts_info

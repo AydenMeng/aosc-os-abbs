@@ -1,4 +1,4 @@
-From 152bf2876e326039d4ff11694c3906924732b579 Mon Sep 17 00:00:00 2001
+From 95ff54bc8dbef836fcbab430baabee05f5ec78b9 Mon Sep 17 00:00:00 2001
 From: Yanteng Si <siyanteng@loongson.cn>
 Date: Wed, 7 Aug 2024 21:48:02 +0800
 Subject: [PATCH 014/100] net: stmmac: dwmac-loongson: Init ref and PTP clocks

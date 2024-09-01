@@ -1,4 +1,4 @@
-From da162f064199f6ccb1bd931c0965e9e12c2170ee Mon Sep 17 00:00:00 2001
+From 7250af55aad0ca6be9a3add20a5816ae1dbeb639 Mon Sep 17 00:00:00 2001
 From: Chen Baozi <chenbaozi@phytium.com.cn>
 Date: Fri, 14 Jul 2023 08:34:22 +0800
 Subject: [PATCH 021/100] net: stmmac: Add Phytium GMAC glue layer
@@ -21,10 +21,10 @@ Ref: https://gitee.com/phytium_embedded/phytium-linux-kernel/commit/bf64fd4ae38b
  create mode 100644 drivers/net/ethernet/stmicro/stmmac/dwmac-phytium.c
 
 diff --git a/MAINTAINERS b/MAINTAINERS
-index 878dcd23b3317..169e2346ab280 100644
+index fe83ba7194eaf..6c798233f9675 100644
 --- a/MAINTAINERS
 +++ b/MAINTAINERS
-@@ -2699,6 +2699,12 @@ S:	Maintained
+@@ -2702,6 +2702,12 @@ S:	Maintained
  W:	http://www.digriz.org.uk/ts78xx/kernel
  F:	arch/arm/mach-orion5x/ts78xx-*
  

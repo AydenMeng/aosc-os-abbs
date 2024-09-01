@@ -1,4 +1,4 @@
-From d1592bc273dcc087390ca801e0e1f399c646dd0b Mon Sep 17 00:00:00 2001
+From 7510169cffbf7a5cc30ae89433b08bf160d3b841 Mon Sep 17 00:00:00 2001
 From: Yanteng Si <siyanteng@loongson.cn>
 Date: Wed, 7 Aug 2024 21:48:03 +0800
 Subject: [PATCH 015/100] net: stmmac: dwmac-loongson: Add phy_interface for

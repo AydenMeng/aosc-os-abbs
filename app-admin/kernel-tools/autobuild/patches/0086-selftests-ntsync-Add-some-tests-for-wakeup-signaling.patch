@@ -1,4 +1,4 @@
-From 48477e7ec3893ea78a804eb0c4020df0428d34e9 Mon Sep 17 00:00:00 2001
+From adc22725d04bde106fc3be2799274ce84e2f278c Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:48 -0500
 Subject: [PATCH 086/100] selftests: ntsync: Add some tests for wakeup

@@ -1,4 +1,4 @@
-From a7ad6f6efe0ab5fe27a88c06494ef8b01a839855 Mon Sep 17 00:00:00 2001
+From 318fae148e13ec49349441f3b4063a9f76ef4c5a Mon Sep 17 00:00:00 2001
 From: Bibo Mao <maobibo@loongson.cn>
 Date: Tue, 30 Jul 2024 15:57:41 +0800
 Subject: [PATCH 053/100] LoongArch: KVM: Add HW Binary Translation extension
@@ -54,7 +54,7 @@ index 5f0677e03817b..f809536d9a3e8 100644
  int kvm_arch_vcpu_dump_regs(struct kvm_vcpu *vcpu);
  
 diff --git a/arch/loongarch/include/asm/kvm_vcpu.h b/arch/loongarch/include/asm/kvm_vcpu.h
-index c416cb7125c0e..3cc906a0ff54a 100644
+index 86570084e05aa..ca067bf6dd0ac 100644
 --- a/arch/loongarch/include/asm/kvm_vcpu.h
 +++ b/arch/loongarch/include/asm/kvm_vcpu.h
 @@ -75,6 +75,12 @@ static inline void kvm_save_lasx(struct loongarch_fpu *fpu) { }
@@ -68,8 +68,8 @@ index c416cb7125c0e..3cc906a0ff54a 100644
 +#endif
 +
  void kvm_init_timer(struct kvm_vcpu *vcpu, unsigned long hz);
- void kvm_reset_timer(struct kvm_vcpu *vcpu);
  void kvm_save_timer(struct kvm_vcpu *vcpu);
+ void kvm_restore_timer(struct kvm_vcpu *vcpu);
 diff --git a/arch/loongarch/kvm/exit.c b/arch/loongarch/kvm/exit.c
 index ea73f9dc2cc6a..be2c326253a3e 100644
 --- a/arch/loongarch/kvm/exit.c
@@ -98,7 +98,7 @@ index ea73f9dc2cc6a..be2c326253a3e 100644
  
  int kvm_handle_fault(struct kvm_vcpu *vcpu, int fault)
 diff --git a/arch/loongarch/kvm/vcpu.c b/arch/loongarch/kvm/vcpu.c
-index 16756ffb55e86..36db2b257a958 100644
+index 6905283f535b9..65335323abd1b 100644
 --- a/arch/loongarch/kvm/vcpu.c
 +++ b/arch/loongarch/kvm/vcpu.c
 @@ -6,6 +6,7 @@

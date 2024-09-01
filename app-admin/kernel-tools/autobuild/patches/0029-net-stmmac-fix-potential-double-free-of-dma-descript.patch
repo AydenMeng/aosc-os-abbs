@@ -1,4 +1,4 @@
-From e5954d454901ab28f6106cc8187a0c6981131869 Mon Sep 17 00:00:00 2001
+From 3adfddb3ac3e9030aa03079d1497bcb2e05a660e Mon Sep 17 00:00:00 2001
 From: Yanteng Si <siyanteng@loongson.cn>
 Date: Mon, 27 May 2024 10:20:21 +0800
 Subject: [PATCH 029/100] net: stmmac: fix potential double free of dma

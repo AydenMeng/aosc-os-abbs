@@ -1,4 +1,4 @@
-From 589afa63bca98406813d00aeaf2013044e06056a Mon Sep 17 00:00:00 2001
+From bd23e54b5bf544c717e0c44790faef7c52b25168 Mon Sep 17 00:00:00 2001
 From: Kexy Biscuit <kexybiscuit@aosc.io>
 Date: Mon, 12 Aug 2024 07:58:56 +0800
 Subject: [PATCH 034/100] net/phytmac: Fixed the issue of pxe startup failure.

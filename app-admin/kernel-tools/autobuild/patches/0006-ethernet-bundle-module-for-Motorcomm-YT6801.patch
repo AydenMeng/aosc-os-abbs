@@ -1,4 +1,4 @@
-From fd47bbece16de4118785d328ee72008de2021ae7 Mon Sep 17 00:00:00 2001
+From 16e1ac9acff34462499324ebf7ddb9b75020ce3b Mon Sep 17 00:00:00 2001
 From: wanghuai <748928840@qq.com>
 Date: Fri, 2 Feb 2024 19:05:26 +0000
 Subject: [PATCH 006/100] ethernet: bundle module for Motorcomm YT6801

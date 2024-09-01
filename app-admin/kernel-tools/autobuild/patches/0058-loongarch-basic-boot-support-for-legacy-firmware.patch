@@ -1,4 +1,4 @@
-From 21f7784bbde14194caf9f7e97a59ddb46c3aed35 Mon Sep 17 00:00:00 2001
+From a0a7f87a6ba758b47a692f72ef8a3b339f29dac5 Mon Sep 17 00:00:00 2001
 From: Miao Wang <shankerwangmiao@gmail.com>
 Date: Wed, 17 Jul 2024 09:03:32 +0800
 Subject: [PATCH 058/100] loongarch: basic boot support for legacy firmware

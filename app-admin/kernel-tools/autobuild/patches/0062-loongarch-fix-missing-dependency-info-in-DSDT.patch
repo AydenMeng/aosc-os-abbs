@@ -1,4 +1,4 @@
-From 9f29231bb7ba5d02e44cf6d1e8d2e9a3a4ef61c6 Mon Sep 17 00:00:00 2001
+From c63ba34c74c1ada2d4b264ade6d8f795637f57c5 Mon Sep 17 00:00:00 2001
 From: Miao Wang <shankerwangmiao@gmail.com>
 Date: Thu, 25 Jul 2024 16:09:19 +0800
 Subject: [PATCH 062/100] loongarch: fix missing dependency info in DSDT

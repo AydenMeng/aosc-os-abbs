@@ -1,4 +1,4 @@
-From b98062bf50809aed038c092e34ab395da6ae3120 Mon Sep 17 00:00:00 2001
+From de56b81772d6abe9c67225e86ed97c804269b3e4 Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Tue, 16 Jul 2024 14:37:00 +0800
 Subject: [PATCH 005/100] drm: amdgpu: radeon: disable cache flush workaround

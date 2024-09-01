@@ -1,4 +1,4 @@
-From 20bdea55b589991af2a87f887e3986d519904572 Mon Sep 17 00:00:00 2001
+From 8ff08d60ba1d399f4d85873292e6ca7466ef6590 Mon Sep 17 00:00:00 2001
 From: Yanteng Si <siyanteng@loongson.cn>
 Date: Wed, 7 Aug 2024 21:45:28 +0800
 Subject: [PATCH 007/100] net: stmmac: Move the atds flag to the stmmac_dma_cfg
