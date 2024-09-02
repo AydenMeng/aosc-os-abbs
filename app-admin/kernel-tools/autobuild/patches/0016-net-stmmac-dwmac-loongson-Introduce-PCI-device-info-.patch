@@ -1,7 +1,7 @@
 From 17c304ccde291dca2f2586a1744716fb31a1acd8 Mon Sep 17 00:00:00 2001
 From: Yanteng Si <siyanteng@loongson.cn>
 Date: Wed, 7 Aug 2024 21:48:04 +0800
-Subject: [PATCH 016/100] net: stmmac: dwmac-loongson: Introduce PCI device
+Subject: [PATCH 016/101] net: stmmac: dwmac-loongson: Introduce PCI device
  info data
 
 The Loongson GNET device support is about to be added in one of the

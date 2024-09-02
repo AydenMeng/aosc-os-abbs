@@ -1,7 +1,7 @@
 From 35417c9613a62d5fdd2db05fc7d8995af47859e2 Mon Sep 17 00:00:00 2001
 From: Wentao Guan <guanwentao@uniontech.com>
 Date: Wed, 8 May 2024 18:11:37 +0800
-Subject: [PATCH 028/100] net/stmmac: Add phytium old dwmac acpi_device_id
+Subject: [PATCH 028/101] net/stmmac: Add phytium old dwmac acpi_device_id
 
 As Phytium ACPI Description Specification document v1.2 p13
 Device HID said for old v1.0 Spec,add FTGM0001 for such as

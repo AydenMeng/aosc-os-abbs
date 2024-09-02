@@ -1,7 +1,7 @@
 From 1a2fa807e4b055b1922b517b1e54a334d059ff2a Mon Sep 17 00:00:00 2001
 From: Yanteng Si <siyanteng@loongson.cn>
 Date: Wed, 7 Aug 2024 21:47:08 +0800
-Subject: [PATCH 011/100] net: stmmac: dwmac-loongson: Drop
+Subject: [PATCH 011/101] net: stmmac: dwmac-loongson: Drop
  pci_enable/disable_msi calls
 
 The Loongson GMAC driver currently doesn't utilize the MSI IRQs, but
