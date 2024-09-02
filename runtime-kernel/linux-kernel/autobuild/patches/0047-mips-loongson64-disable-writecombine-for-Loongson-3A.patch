@@ -1,7 +1,7 @@
 From c3c8f1960186bebbaa5002470d14881366701c69 Mon Sep 17 00:00:00 2001
 From: Jiaxun Yang <jiaxun.yang@flygoat.com>
 Date: Mon, 12 Oct 2020 13:32:23 +0800
-Subject: [PATCH 047/100] mips: loongson64: disable writecombine for
+Subject: [PATCH 047/101] mips: loongson64: disable writecombine for
  Loongson-3A R1
 
 Writecombine breaks Radeon graphics cards and causes graphical corruption.

@@ -1,7 +1,7 @@
 From ac7af328642fc1e8849f31824d50b7585ae96359 Mon Sep 17 00:00:00 2001
 From: Miao Wang <shankerwangmiao@gmail.com>
 Date: Thu, 18 Jul 2024 18:55:59 +0800
-Subject: [PATCH 059/100] loongarch: parse BPI data and add memory mapping
+Subject: [PATCH 059/101] loongarch: parse BPI data and add memory mapping
 
 On legacy firmwares, the memory mapping information passed in the EFI
 system table is not enough to cover all the available memory regions,

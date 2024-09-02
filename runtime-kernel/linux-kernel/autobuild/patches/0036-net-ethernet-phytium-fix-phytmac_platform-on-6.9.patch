@@ -1,7 +1,7 @@
 From 59cac4e8811b8ebf04d06aa839f7933ed198f770 Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <baimingcong@uniontech.com>
 Date: Fri, 28 Jun 2024 11:45:05 +0800
-Subject: [PATCH 036/100] net: ethernet: phytium: fix phytmac_platform on 6.9
+Subject: [PATCH 036/101] net: ethernet: phytium: fix phytmac_platform on 6.9
 
 Add missing <linux/platform_device.h> include.
 

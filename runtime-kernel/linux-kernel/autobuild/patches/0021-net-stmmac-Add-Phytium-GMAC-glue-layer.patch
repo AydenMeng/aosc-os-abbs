@@ -1,7 +1,7 @@
 From 7250af55aad0ca6be9a3add20a5816ae1dbeb639 Mon Sep 17 00:00:00 2001
 From: Chen Baozi <chenbaozi@phytium.com.cn>
 Date: Fri, 14 Jul 2023 08:34:22 +0800
-Subject: [PATCH 021/100] net: stmmac: Add Phytium GMAC glue layer
+Subject: [PATCH 021/101] net: stmmac: Add Phytium GMAC glue layer
 
 This patch adds support for Phytium GMAC controller which derived from
 Synopsys Designware MAC 10/100/1000 Universal. As required by SBBR,

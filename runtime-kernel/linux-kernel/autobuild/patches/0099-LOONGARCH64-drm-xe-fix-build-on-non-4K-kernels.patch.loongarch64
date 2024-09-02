@@ -1,7 +1,7 @@
-From 8f36636719b4ef54c906b82a5b97633769d51ade Mon Sep 17 00:00:00 2001
+From 71cd2a78d75f00e3ce3ccc9122f2cdc537945ec9 Mon Sep 17 00:00:00 2001
 From: shangyatsen <429839446@qq.com>
 Date: Mon, 11 Mar 2024 00:14:58 +0800
-Subject: [PATCH 098/100] [LOONGARCH64] drm/xe: fix build on non-4K kernels
+Subject: [PATCH 099/101] [LOONGARCH64] drm/xe: fix build on non-4K kernels
 
 This is required to make xe work on LoongArch, which defaults to 16K pages.
 

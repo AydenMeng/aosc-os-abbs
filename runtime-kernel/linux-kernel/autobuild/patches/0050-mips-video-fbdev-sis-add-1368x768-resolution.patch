@@ -1,7 +1,7 @@
 From e83fc4a3c03cb5bf6b5f46c639cfffd288a71df4 Mon Sep 17 00:00:00 2001
 From: flygoat <flygoatfree@gmail.com>
 Date: Sun, 5 Mar 2017 20:33:17 +0800
-Subject: [PATCH 050/100] mips: video: fbdev: sis: add 1368x768 resolution
+Subject: [PATCH 050/101] mips: video: fbdev: sis: add 1368x768 resolution
 
 This resolution is used by Loongson-powered Lynloong laptops.
 

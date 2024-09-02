@@ -1,7 +1,7 @@
 From 967a08e4573c5f5f550e6d5345f1aac36b7c10a8 Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <baimingcong@uniontech.com>
 Date: Fri, 28 Jun 2024 14:08:40 +0800
-Subject: [PATCH 037/100] net: ethernet: fix phytmac on 6.9
+Subject: [PATCH 037/101] net: ethernet: fix phytmac on 6.9
 
 Declare multiple functions as static functions to suppress warnings about
 missing prototypes.

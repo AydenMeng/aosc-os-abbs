@@ -1,7 +1,7 @@
 From f5f2fc549968be289f83db0e0eea5167cf7458da Mon Sep 17 00:00:00 2001
 From: Kexy Biscuit <kexybiscuit@aosc.io>
 Date: Wed, 28 Aug 2024 01:10:17 +0800
-Subject: [PATCH 043/100] arm64: phytium: Add support for Phytium SoC family
+Subject: [PATCH 043/101] arm64: phytium: Add support for Phytium SoC family
 
 This patch adds supoort for the Phytium SoC family.
 

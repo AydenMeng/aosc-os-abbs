@@ -1,7 +1,7 @@
 From 81f37daa1443cb5df426eeff72721213096310ca Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <baimingcong@uniontech.com>
 Date: Thu, 27 Jun 2024 14:37:53 +0800
-Subject: [PATCH 027/100] net: stmmac: fix dwmac-phytium build on 6.9
+Subject: [PATCH 027/101] net: stmmac: fix dwmac-phytium build on 6.9
 
 Declare phytium_dwmac_remove() as a static function to resolve a missing
 prototype warning.
