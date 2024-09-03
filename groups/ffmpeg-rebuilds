@@ -57,7 +57,6 @@ lang-java/openjfx
 lang-java/openjfx-11
 lang-java/openjfx-8
 runtime-desktop/qt-6
-runtime-desktop/qtav
 runtime-games/openscenegraph
 runtime-imaging/gegl-0.4
 runtime-multimedia/alsa-plugins
