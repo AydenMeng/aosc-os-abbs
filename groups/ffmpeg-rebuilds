@@ -53,9 +53,6 @@ desktop-kde/kpipewire
 desktop-trinity/akode
 desktop-trinity/k3b-trinity
 desktop-trinity/k9copy-trinity
-lang-java/openjfx
-lang-java/openjfx-11
-lang-java/openjfx-8
 runtime-desktop/qt-6
 runtime-games/openscenegraph
 runtime-imaging/gegl-0.4
